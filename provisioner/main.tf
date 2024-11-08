@@ -5,7 +5,6 @@ resource "aws_instance" "test" {
 
 
   provisioner "remote-exec" {
-
     connection {
       type     = "ssh"
       user     = "ec2-user"
